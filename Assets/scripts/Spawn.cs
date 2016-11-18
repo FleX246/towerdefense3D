@@ -10,11 +10,13 @@ public class Spawn : MonoBehaviour {
     public float interval = 3;
 
     // Use this for initialization
-    void Start () {
+    void Start ()
+    {
         InvokeRepeating("SpawnNext", interval, interval);
 	}
 	
-    void SpawnNext() {
+    void SpawnNext()
+    {
         Instantiate(monsterPrefab, transform.position, Quaternion.identity);
     }
 

@@ -1,9 +1,14 @@
 # towerdefense3D
 Projekt Hr. Faust
 
+v.1.2 Mouse Cursor, Ein Tower pro Buildplace<br />
 v.1.1	Fixes Marc - Tower und Bullets hinzugefügt<br />
 v.1.0	Erster Upload
 
+1.2
+===
+mm: Es kann jetzt nur ein Tower pro Buildplace errichtet werden.<br />
+ah: Mouse Curso hinzugefügt um Tower Platzierung zu erleichtern.
 
 1.1
 ===

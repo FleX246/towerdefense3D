@@ -10,6 +10,7 @@ v.1.0	Erster Upload
 ===
 ah: Array hinzugefügt für beliebig viele Monster Prefabs (Random Spawn)<br />
 ah: Coins als "Währung" eingefügt.<br />
+ah: zwei unterschiedliche Texturen für zwei versch. Monster hinzugefügt<br />
 BUG: Anzeige der Coins funktioniert noch nicht.
 
 1.2

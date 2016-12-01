@@ -1,9 +1,16 @@
 # towerdefense3D
 Projekt Hr. Faust
 
+v.1.3 Coins, Zwei o. mehr Monster Array<br />
 v.1.2 Mouse Cursor, Ein Tower pro Buildplace<br />
 v.1.1	Fixes Marc - Tower und Bullets hinzugefügt<br />
 v.1.0	Erster Upload
+
+1.3
+===
+ah: Array hinzugefügt für beliebig viele Monster Prefabs (Random Spawn)<br />
+ah: Coins als "Währung" eingefügt.<br />
+BUG: Anzeige der Coins funktioniert noch nicht.
 
 1.2
 ===

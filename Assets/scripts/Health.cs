@@ -31,9 +31,9 @@ public class Health : MonoBehaviour
     {
          if (current() > 1)
             tm.text = tm.text.Remove(tm.text.Length - 1);
-        else
+        else { 
             Destroy(transform.parent.gameObject);
+            GameObject.Find("Gold").GetComponent<GoldText>().gold += 10;
+        }
     }
-
-
 }

@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Spawn : MonoBehaviour {
 
-    // The Monster that should be spawned
-    public GameObject monsterPrefab;
+    //Array fuer Monster
+    public GameObject[] MonsterPrefs;
 
     // Spawn Delay in seconds
     public float interval = 3;
@@ -17,7 +17,7 @@ public class Spawn : MonoBehaviour {
 	
     void SpawnNext()
     {
-        Instantiate(monsterPrefab, transform.position, Quaternion.identity);
+        Instantiate(MonsterPrefs[Random.Range(0, MonsterPrefs.Length)], transform.position, Quaternion.identity);
     }
 
 }

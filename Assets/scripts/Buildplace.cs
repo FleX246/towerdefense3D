@@ -13,9 +13,14 @@ public class Buildplace : MonoBehaviour {
         // Build Tower above Buildplace
         if(!bebaut)
         {
-            GameObject g = (GameObject)Instantiate(towerPrefab);
-            g.transform.position = transform.position + Vector3.up;
-            bebaut = true;
+            if(GameObject.Find("Gold").GetComponent<GoldText>().gold >= 100)
+            {
+                GameObject g = (GameObject)Instantiate(towerPrefab);
+                g.transform.position = transform.position + Vector3.up;
+                bebaut = true;
+                GameObject.Find("Gold").GetComponent<GoldText>().gold -= 100;
+            }
+
         }
     }
 

@@ -1,10 +1,15 @@
 # towerdefense3D
 Projekt Hr. Faust
 
+v.1.4 Coinanzeige funktioniert<br />
 v.1.3 Coins, Zwei o. mehr Monster Array<br />
 v.1.2 Mouse Cursor, Ein Tower pro Buildplace<br />
 v.1.1	Fixes Marc - Tower und Bullets hinzugefügt<br />
 v.1.0	Erster Upload
+
+1.4
+===
+ah: Anzeige der Coins am oberen Bildschirmrand funktioniert. (BUG von v1.3)
 
 1.3
 ===
@@ -16,7 +21,7 @@ BUG: Anzeige der Coins funktioniert noch nicht.
 1.2
 ===
 mm: Es kann jetzt nur ein Tower pro Buildplace errichtet werden.<br />
-ah: Mouse Curso hinzugefügt um Tower Platzierung zu erleichtern.
+ah: Mouse Cursor hinzugefügt um Tower Platzierung zu erleichtern.
 
 1.1
 ===

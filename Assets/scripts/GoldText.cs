@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System;
 using System.Collections;
 
@@ -8,9 +9,9 @@ public class GoldText : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        TextMesh tm;
-        tm = GetComponent<TextMesh>();
-        tm.text = Convert.ToString(gold);
+        Text t;
+        t = GetComponent<Text>();
+        t.text = "Coins: " + Convert.ToString(gold);
     }
 
 

@@ -1,11 +1,20 @@
 # towerdefense3D
 Projekt Hr. Faust
 
+v.1.5 Hauptmenü, Game Over Anzeige, Pause, GUI Erweiterungen<br />
 v.1.4 Coinanzeige funktioniert<br />
 v.1.3 Coins, Zwei o. mehr Monster Array<br />
 v.1.2 Mouse Cursor, Ein Tower pro Buildplace<br />
 v.1.1	Fixes Marc - Tower und Bullets hinzugefügt<br />
 v.1.0	Erster Upload
+
+
+1.5
+===
+ds: Hauptmenü (Play, Beenden) eingefügt.<br />
+ds: Game Over Anzeige hinzugefügt, Aufruf funktioniert noch nicht.<br />
+ds: Pause Button hinzugefügt.<br />
+ds: GUI Erweiterungen hinzugefügt.<br />
 
 1.4
 ===
